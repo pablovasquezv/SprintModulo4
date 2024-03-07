@@ -13,7 +13,7 @@ Lista de configuraciones de desarrollo que se requieren locamente para ejecutar 
 
 
 #### README UPDATE
-* ***Juan Pablo Vásquez*** - *06-02-2023*
+* ***Juan Pablo Vásquez*** - *07-03-2024*
 *
 
 
