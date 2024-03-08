@@ -1,11 +1,13 @@
 package sprintmodulo4.models;
 
+import sprintmodulo4.interfaces.IAsesoria;
+
 import java.time.LocalDate;
 
 /**
  * @author Pablo
  */
-public class Usuario {
+public abstract class Usuario implements IAsesoria {
     //Definición de atributos
     protected int run;
     protected String nombre;
@@ -128,6 +130,7 @@ public class Usuario {
     /**
      * Despliega el nombre y el RUN del usuario.
      */
+
     @Override
     public void analizarUsuario() {
         System.out.println("Nombre: " + nombre);
